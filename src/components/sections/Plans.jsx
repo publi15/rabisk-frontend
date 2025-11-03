@@ -1,4 +1,3 @@
-// src/components/sections/Plans.jsx
 import React, { useState, useEffect } from "react";
 import Button from "../ui/Button";
 import Card from "../ui/Card";
