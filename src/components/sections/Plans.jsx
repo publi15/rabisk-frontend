@@ -20,7 +20,7 @@ const Plans = () => {
   // FUNÇÃO DE CHECKOUT DIRETO
   const checkout = async (plan) => {
     try {
-      const res = await fetch('http://localhost:4242/create-checkout', {
+      const res = await fetch('https://rabisk-backend.onrender.com/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ plan }),
