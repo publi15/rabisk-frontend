@@ -29,7 +29,7 @@ const Steps = () => {
   ];
 
   return (
-    <section id="contato" className="py-16 bg-dark-bg">
+    <section id="tutorial" className="py-16 bg-dark-bg">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-accent-cyan">
           Comece em 4 Passos
